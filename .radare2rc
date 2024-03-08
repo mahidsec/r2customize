@@ -1,0 +1,29 @@
+# Show comments at right of disassembly
+e asm.cmt.right=true
+
+# Shows pseudocode in disassembly. Eg mov eax, str.ok = > eax = str.ok
+#e asm.pseudo = true
+
+
+# Display stack and register values on top of disasembly view (visual mode)
+e cmd.stack = true
+
+# Set darkda theme
+eco darkda
+
+# Set tango theme
+#eco tango
+
+# Use UTF-8 to show cool arrows 
+e scr.utf8 = true
+
+# Sanbox settings
+e cfg.sandbox=false
+
+# Describe assembly code as a comment
+e asm.describe=true
+
+#e bin.relocs.apply=true
+
+# Set prompt background and foreground color
+ec prompt black yellow
